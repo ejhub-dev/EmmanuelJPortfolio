@@ -8,7 +8,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Next.js with Tailwind CSS',
+  title: 'EmmanuelPortfolio',
   description: 'A boilerplate project with Next.js and Tailwind CSS',
   icons: {
     icon: [
@@ -26,8 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <body>{children}
 
-        <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fmezanurpor4478back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.12" />
-        <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2" /></body>
+        <script type="module" async src="/assets/emmanuelportfolio-web.js" />
+        <script type="module" defer src="/assets/rocket-shot.js" /></body>
     </html>
   );
 }
